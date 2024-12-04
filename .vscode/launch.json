@@ -1,21 +1,19 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "9.1.0",
+    "version": "0.2.0",
     "configurations": [
         {
             "type": "java",
-            "name": "Current File",
+            "name": "HelloApplication",
             "request": "launch",
-            "mainClass": "${file}"
+            "mainClass": "javafx_trial.HelloApplication",
+            "projectName": "repository_da524837"
         },
         {
             "type": "java",
-            "name": "Game",
+            "name": "Launch HelloApplication",
             "request": "launch",
-            "mainClass": "maze.Game",
-            "projectName": "repository_da524837"
+            "mainClass": "HelloApplication",
+            "vmArgs": "--module-path \"C:/Users/MSI/OneDrive - ISEP/Asignaturas Erasmus Cuarto Primer Cuatrimestre/Software Engineering and Java Programming/Project/repository/lib/javafx-sdk-17.0.13/lib\" --add-modules javafx.controls,javafx.fxml"
         }
     ]
 }
